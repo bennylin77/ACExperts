@@ -1,0 +1,27 @@
+.methods_holder{
+	min-height: 100vh;
+	background: #f9f5d6;
+	color: #543f36;
+	position: relative;
+}
+.methods_content{
+	margin: 0 auto;
+	font-size: 1rem;
+	margin-top: 5px;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	border-top-style:solid;
+	border-color: #543f36;
+	border-width:0.15rem;
+	border-bottom-style:solid;
+	letter-spacing:0.1rem;
+	line-height: 1.5rem;
+}
+.methods_img{
+	margin-top: 10px;
+}
+.methods_sun{
+	position: absolute;
+	height: 50px;
+	z-index: 0;
+}

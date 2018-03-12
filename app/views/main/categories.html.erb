@@ -1,0 +1,54 @@
+<section class="categories_holder">
+	<%= image_tag 'red_pattern.png', class: "page_red_pattern" %>
+	<%= image_tag 'red_pattern.png', class: "page_red_pattern", style: "bottom: 0px;" %>
+	<div class="container">
+		<div class="row page_title_holder">
+			<div class="col" style="position: relative">
+				<%= image_tag 'light_sun.png', class: "page_title_sun" %>
+				<div class="page_title_inner_holder">
+					<span class="page_title_ch">安裝款式</span><span class="page_title_en">Categories</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col" style="position: relative">
+				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+				  <li class="nav-item">
+				    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-split" role="tab" aria-controls="pills-split" aria-selected="true">壁掛</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-central" role="tab" aria-controls="pills-central" aria-selected="false">隱藏</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-recessed" role="tab" aria-controls="pills-recessed" aria-selected="false">嵌入</a>
+				  </li>
+					<li class="nav-item">
+				    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-suspended" role="tab" aria-controls="pills-suspended" aria-selected="false">天吊</a>
+				  </li>
+					<li class="nav-item">
+				    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-condenser" role="tab" aria-controls="pills-condenser" aria-selected="false">外機安裝</a>
+				  </li>
+				</ul>
+				<div class="tab-content" id="pills-tabContent">
+				  <div class="tab-pane fade show active" id="pills-split" role="tabpanel" aria-labelledby="pills-split-tab">
+						  <%=render "split" %>
+					</div>
+				  <div class="tab-pane fade" id="pills-central" role="tabpanel" aria-labelledby="pills-central-tab">
+							<%=render "central" %>
+					</div>
+				  <div class="tab-pane fade" id="pills-recessed" role="tabpanel" aria-labelledby="pills-recessed-tab">
+							<%=render "recessed" %>
+					</div>
+					<div class="tab-pane fade" id="pills-suspended" role="tabpanel" aria-labelledby="pills-suspended-tab">
+							<%=render "suspended" %>
+					</div>
+					<div class="tab-pane fade" id="pills-condenser" role="tabpanel" aria-labelledby="pills-condenser-tab">
+							<%=render "condenser" %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

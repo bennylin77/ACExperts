@@ -1,0 +1,33 @@
+.footer{
+	background: rgb(12, 67, 81);
+	color: #ffffff;
+}
+.footer_title{
+	display: inline-block;
+	padding-right: 40px;
+	letter-spacing: 3px;
+}
+.footer_content{
+	display: inline-block;
+}
+.footer_content a{
+	color: #ffffff;
+}
+.footer_content_left{
+	padding-left: 2px;
+}
+.footer_img{
+	height: 40px;
+	margin-left: 40px;
+}
+.footer_copyright{
+	font-size: 0.8rem;
+}
+.footer_copyright a{
+	color: #ffffff;
+}
+@include media-breakpoint-between(sm, md){
+	.footer_content_left{
+		padding-left: 0px;
+	}
+}

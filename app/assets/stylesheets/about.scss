@@ -1,0 +1,31 @@
+.about_holder{
+	min-height: 100vh;
+	background: #f9f5d6;
+	color: #543f36;
+	position: relative;
+}
+.about_title{
+	font-size: 1.3rem;
+	letter-spacing: .4em
+}
+.about_content{
+
+}
+.about_link{
+	color: #1F9BBA;
+	border: 1px solid #1F9BBA;
+	border-radius: 6px;
+}
+
+.about_pattern{
+		height: 13px;
+}
+.about_list{
+	list-style-type:square;
+
+	padding-left: 18px;
+	line-height: 1.8em;
+}
+.about_logo{
+	height: 30px;
+}
